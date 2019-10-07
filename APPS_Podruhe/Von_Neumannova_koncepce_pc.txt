@@ -1,0 +1,34 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-23T14:33:11+02:00
+
+====== Von Neumannova koncepce pc ======
+Vytvořeno Pondělí 23 září 2019
+
+IO jednotky, paměť, alu, řadič
+
+{{./pasted_image.png}}
+alu + řadiš =CPU
+
+
+vse bude ve dvojkové soustavě (instukce i data)
+data i instrukce budou v paměti 
+instrukce jsou vykonávány sekvenčně 
+instrukce jsou vykonávány sekvenčně prostřednictvím cpu
+změna sekvenčního vykonávání je možná jen díky skokům, které jsou v kódu (nikoliv zvenčí)
+pozice v kódu je P(rogram) C(ounter) / I(nstruction) P(ointer)
+paměť rozčleněna na buňky stejné velikosti (typ. bajt)
+pořadové číslo buňkyje adresa
+
+tohle byly "ingredience", ale když se zeptá, jak funguje von neumannův pc, tak mu tohle nestačí 
+chce k tomu povídání 
+
+==== Harvardská architektura pc ====
+
+{{./pasted_image001.png}}
+oddělené sběrnice 
+každá sběrnice může mít jinou šířku 
+typické pro malé zařízení 
+řadič je jednodušší (levnější)
+
+

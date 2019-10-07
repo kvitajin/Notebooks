@@ -1,0 +1,76 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-30T14:21:11+02:00
+
+====== monolitické počítače ======
+Vytvořeno Pondělí 30 září 2019
+
+musí tam být procesor (alu)
+musí tam být periferie
+a paměti 
+pokud to dostaneme do jednoho pouzdra, tak je to monolit 
+může se tomu říkat jednočip/mikropočítač,...
+nejčastěji harvard (oddělená paměť instrukcí a dat
+instrukce ne vždy korespondují s velikostí bajtu (instrukce 12b, 16b, 10b,...)
+
+paměti rozdělené na 3 vrstvy 
+
+	pracovní registry 
+	paměť, kde je uložen program 
+	paměť, kde jsou uložena data (sram?)
+
+paměť eeprom slouží na ukládání dat i po tom, co třeba vypneme napájení 
+
+registry adresujeme přímo 
+s proměnnými to vždy musíme spojovat s pracovním registrem 
+	instrukce ji dokáží adresovat, ale porovnává vždy s registrem 
+práce s eeprom je pomalejší 
+nejpomalejší je zapisování 
+
+čas se řeší různě 
+nejlevněji přes RC článek 
+
+dražší je krystal, ale i tak je lepší ho jednou za čs synchronizovat
+	přes gps, net, nebo radio
+	NTP, GPS, DFC	
+	
+
+==== LCD displeje ====
+	kecal o reprezentaci barev v pc
+	rozdělení na rgb 5-6-5 bit (65k barev)
+	
+	
+	
+	
+najít si nějaký monolit a ten popsat 
+
+
+{{./pasted_image.png}}
+třeba něco takového, ale musí k otmu být z ajkého je procesoru a hovna o tom (jestli je tam watchdog, jestli umí přerušení, kolik zanoření, paměti, periferie, kde je ten procesor atd.)
+
+==== Porty ====
+GPIO 
+PTA
+PTB
+PTC 
+	po resetu všechny porty se nastaví do podu vstup 
+
+
+==== Sériové linky ====
+	I2C 
+	RS232 
+	CAN 
+
+==== Čítač ====
+
+==== Převodníky ====
+
+== -D/A převodníky ==
+PWM - šířková modulace půlzů 
+		časová perioda musí být výrazně menší, než hodnota rc článku, který se připojuje 
+
+neco navic pro push
+
+	
+	
+	
