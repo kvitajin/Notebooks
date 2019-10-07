@@ -1,0 +1,134 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-02-25T09:32:52+01:00
+
+====== 2. přednáška ======
+Created Pondělí 25 února 2019
+CSMA/CD
+síťová topologie 
+
+==== WAN ====
+x.25
+frme relay (nebo tak nějak)
+LAP-F
+
+CIR
+Bc
+Be
+
+DE 
+FECN 
+BECN
+
+EA
+
+ATM
+
+
+AAL5
+ATM vsrtva 
+
+--------------------
+WAN sítě (technologie) 
+	virtuální kanály 
+X.25
+	zastaralá, nepoužívá se, ale první pokus 
+Fbrame relay 
+	lab-F, lab-D
+Bc, Be, CIR
+FECN
+BECN
+AMT 
+virtuální cesta, virtuální buňka 
+vsrstvy atm stačí tak lehce umět a něco k tomu 
+
+--------------------
+3 přednáška 
+
+transportní sítě
+přepínání signálů 
+PDM, SDM, PDH
+SDH
+E1-E4, T1-T4
+virtuální kontejnery 
+multiplexory 
+topologie sdh sítí 
+DWDM multiplexování 
+	[[+rychlosti]]
+
+--------------------
+5. přednáška
+
+bezpečné transportní sítě 
+	a. tunel
+	b. vpn
+	ssl
+ipsec 
+vpn 
+	co používají šifrování
+	oddělování  mpls vpn 
+voip
+signalizační protokoly 
+virtuální cloudy 
+druhy cloudů 
+služby cloudů 
+	infrastruktura jako služba
+	..
+
+--------------------
+6. přednáška 
+ccs7
+popsat obrázek signální soustavy STP, SCP, SSP (kde jsou tyhle ty popisky, tak topopsat)
+ccs7 protocol stack
+ISUP
+
+kolik je vrstev ccs7 a jejich funkce, 
+zprávy vrámci isup
+být schopen pospat obrázek isup call
+
+protokol H.323
+SIP
+
+
+--------------------
+
+==== příprava na test ====
+
+SIP - session initialiton protokol
+	textově oritentované žádosti 
+ISDN 
+	první digitální 
+	B kanál 64kbit/s
+	signalizace 
+		hromada šipeček mezi dvěma čárama (viz prezentace)
+access networks 
+	DSLAM 
+	ADSL 
+	VSDL 
+	DMT 
+		rozdělení pásma na několik subnosných 
+	VDSL2 
+		faxt 
+	g.fast
+	na kterých vrstvách jsou definovány přístupové technollogie? 
+		1a2
+	IPTV
+	pasivní optické sítě 
+		obsahují jen optiku 
+		rozbočovače rozbočují optický signál (ale s útlumem) 
+	ITU vs IEEE
+	
+	WLAN 
+	WIMAX 
+		mrtvá technologie 
+	BT 
+		opět na L1 aL2
+	DVBT-RCS 
+		není televize, ale licencuje i tu 
+	 být schopen rozdělit mobilní sítě a jejich generace
+	burst 
+		základní datová jednotka definovaná v čase, kdy jejsou posílány data
+	subsystém přepojobých stanic (nebo tak něco) 
+	 
+
+

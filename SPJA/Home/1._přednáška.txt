@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-19T10:53:38+02:00
+
+====== 1. přednáška ======
+Created Středa 19 září 2018
+
+jan.gaura@vsb.cz
+EA408
+
+
+https://github.com/geordi/spja-course
+zde má věšechny kódy i s vysvětlivkama, co se bere v hodinách
+
+s="hello world"
+s[1:5] vypíše od druhého, až po šestý znak
+s[1:5:2] vypíše od druhého po šestý znak, lae jen každý druhý
+
+for item in d:
+	vyjede všechny prvky jako foreach
+for item in d[:3]: 
+	sjede první tři prvky
+	
+	

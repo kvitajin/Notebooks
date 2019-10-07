@@ -1,0 +1,91 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-04-01T12:54:10+02:00
+
+====== 7. hodina (8. hodina, sedmá nebyla) ======
+Created Pondělí 01 dubna 2019
+
+apt-cache search apache2 
+
+install
+ cd [[/etc/]]
+cd apache2
+vše v apache2.conf
+	konfigurace 
+cd mods-available
+	používají se sssl, rewrite, proxy, userdir.conf
+cd ..
+cd sites-enabled
+
+cd [[/var/www/html/]]
+apt-cache search php 
+apt install php
+a2ensite default-ssl
+systemctl reload apache2
+a2enmod ssl
+ systemctl reload apache2
+
+netstat -pln
+
+a2enmod userdir
+
+mediawiki stáhnout z jejichstrnek 
+wget  --no-check-certificate (www link )
+
+apt install mysql-server
+
+následně to, co je v taháku na jeho stránkách v prvním okne osmé přednášky 
+to mysql -u root -p 
+atd
+i to druhé okno
+mc
+rozbalit mediawiki 
+ln -s mediawiki-1.32.0 wiki (symbolický link na wiki
+apt-cache search mbstring
+nasinstalovat 
+apt install php-xml
+service apache2 restart
+apt install php-mysql
+service apache2 restart
+na stránce nakonfigurovat 
+po konfiguraci stáhnu soubor konfiguráku 
+cd [[/var/www/html/wiki]] 
+cat > LocalSettings.php
+pak ctrl +c a v to tam jebnu (to, co jsem stahoval)
+
+
+
+==== DHCP server ====
+funguje v rápci virtualbox 
+vim [[/etc/network/interfaces.d]] [[/*]]
+auto enp0s8
+iface enp0s8 inet static 
+	address 162.168.57.10
+	ještě něco, nestihl jsem
+
+apt-cache search dhcpdip
+
+apt install isc-dhcp-server
+vim [[/etc/defaut/isc-dhcp-server]]
+	tam 
+	INTERFACESv4="enp0s8"
+	INTERFACESv6=""
+
+vim [[/etc/neco/]] 
+fotky v mobilu
+iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE
+
+apt install nfs-server 
+
+vim [[/etc/export]]
+	[[/home]] 139.168.57.0/24(rw, sync, no_subtree_check) 	 
+zavřít 
+
+service nfs-kernel-server restart 
+exportfs 
+na druhém virt pc 
+apt instlal nfs-common (nebo tak nějak)
+mount 192.1618.57.10:/home [[/mnt]]
+
+
+[[Home]]

@@ -1,0 +1,96 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-12-13T07:36:18+01:00
+
+====== 52. cvičení ======
+Created Čtvrtek 13 prosince 2018
+
+Zamestnanec (id_zamestnanec, jmeno, prijmeni, login, e-mail, kancelat, budova, ulice,,mesto, psc)
+
+určení funkčních závislostí: 
+
+	id_zam->jmeno, prijmeni, login, e-mail, kancelar, budova, ulice,mesto, psc
+	login->id_zam, jmeno, prijmeni, login,  kancelar, budova, ulice,mesto, psc
+	e-mail-> id_zam, jmeno, prijmeni, login, kancelar, budova, ulice,mesto, psc
+	psc->mesto
+	kancelar->budova
+	budova-> ulice, mesto, psc
+
+optimalizace funkčních závislostí:
+	id_zam->jmeno, prijmeni, login, e-mail, kancelar
+	login->id_zam, jmeno, prijmeni, login,  kancelar
+	e-mail->id_zam, jmeno, prijmeni, login, kancelar
+	psc-> mesto
+	kancelar->budova
+	budova->ulice, mesto, psc
+	
+	k1: id_zaz
+	k2: login
+	k3: e-mail
+	
+Zamestnanec (id_zamestnanec, jmeno, prijmeni, login, e-mail, kancelar)
+	|
+	v
+Kancelar(kancelar, budova)
+	|
+	v
+Budova(budova, ulice, psc)
+	|
+	v
+PSC(psc, mesto)
+
+
+
+__uzivatel__(uzivatel_id, nick, heslo, email, datum_narozeni, ban, obec_bec_id)
+	uzivatel_id-> nick, heslo, email, datum_narozeni, ban, obec_bec_id
+	email->uzivatel_id, nick, heslo, datum_narozeni, ban, obec_bec_id
+	
+	k1:uzivatel_id
+	k2:email
+
+__obec__ (obec_id, nazev)
+	obec_id->nazev
+	
+	k: obec_id
+
+__album__ (album_id, nazev, obec_obec_id)
+	album_id->nazev, obec_obec_id
+	
+	k: album_id
+	
+__foto__ (foto_id, nazev, datum, popis, album_album_id)
+	foto_id->nazev, datum, popis, album_album_id)
+	
+	k: foto_id
+
+__dokument__ (doument_id, nadpis, obsah, datum, obrazek, rubrika_rubruka_id)
+	dokument_id->nadpis, obsah, datum, obrazek, rubrika_rubrika_id
+	
+	k: dokument_id
+
+__rubrika__ (rubrika_id, nazev)
+	rubrika_id->nazev
+	nazev->rubrika_id
+	
+	k1: rubrika_id
+	k2:nazev
+
+__zmena_dokument__(zmena_dokument_id, obsah, datum, dokument_dokument_id)
+	zmena_dokument_id-> obsah, datum, dokument_dokument_id
+	
+	k: zmena_dokument_id
+	
+__verejne_oznameni__(datum_vyves, datum_stazeni, dokument_dokument_id)
+	dokument_dokument_id->datum_vyves, datum_stazeni
+	
+	k:dokument_dokument_id
+	
+__komentar__(komentar_id, obsah, foto_foto_id, dokument_dokument_id, uzivatel_uzivatel)
+	komentar_id-> obsah, foto_foto_id, dokument_dokument_id, uzivatel_uzivatel
+	
+	k:komentar_id
+
+
+
+
+

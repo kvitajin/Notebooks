@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-02-21T17:55:57+01:00
+
+====== Home ======
+Created Čtvrtek 21 února 2019
+
+\section{Moje Kapitola} 		<-s číslováním
+\section*{Moje Kapitola}		<- bez cislovani
+\subsection
+
+\paragraph
+\subparagraph
+
+\setcounter
+\tableofcontent 			<- obsah
+
+
+
+
+\section{uvod}
+\setcounter{section}{2}
+\section{dva}
+\setcounter{section}{4}
+\section{tri}
+\setcounter{section}{6}
+\section{ctyri}
+
+
+kdo chce používat tabularx musí použít include 
+
+
+najít si, jak se dělá tabulka přes celou šířku stránky
+
+
+udelat sachovnici a místo černých obrázky tahat ze složky :D (pomocí foreach rozmístit)

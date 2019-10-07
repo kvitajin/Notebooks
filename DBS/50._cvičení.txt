@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-29T07:36:21+01:00
+
+====== 50. cvičení ======
+Created Čtvrtek 29 listopadu 2018
+
+v konceptuálním modelu nekrelíme cizí klíče (častý dotaz na zkoušce)
+v relačním schématu není vazma M:N, používá se tam vazební tabulka
+neříká se tabulka, ale entita (entitní typ je pak jednotlivý prvek- např student)
+u vazby se určuje 
+	povinnost 
+	kardinalita 
+		1:1
+		1:N
+		M:N
+	identifying 
+		pokud potřebuju, aby byl cizí klíč součástí primárního 
+
+chcou 
+	konceptuální 
+	lineární zápis entitních typů 
+	relační model
+	datový slovník
+		je to popisná tabulka... najdeš 
+	seznam integritních omezení 
+odevzdat dvakrát stejný dokument 
+	jednou jako opravu prvního odevzdání 
+	podruhé jako druhé odevzdání 
+	
+	
+todo id u zmeny 
+

@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-28T16:16:33+01:00
+
+====== příprava na test ======
+Created Čtvrtek 28 března 2019
+
+5 stránek 
+1. stránka odrážky- číslované 
+	pododrážky číslované 
+	vzoreček integrál od nekonečna do nekonečna z 1/e^x dx
+2. stránka - pomocí vlastního command 
+	načtení 9 obrázků 
+	první sloupec obrázků otočen o 90 do prava, druhý doleva a třetí doprava 
+3. stránka 
+	tabulka an celou šířku 
+	ta podle mojeho zdrojáku, tohle nenakreslím 
+4. stránka bude obsahovat 3d graf 
+	funkce z=1/(x^2y^2)
+5. stránka 
+	automatické formuláře (budeme dělat příště)
+jméno a příjmení 
+obsah 
+	\table of content
+

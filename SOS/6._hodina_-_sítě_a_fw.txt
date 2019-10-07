@@ -1,0 +1,68 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-18T12:38:56+01:00
+
+====== 6. hodina - sítě a fw ======
+Created Pondělí 18 března 2019
+
+sítě 
+prve udělat klon 
+	server nat a druhá síťovka pouze s hostem
+	client  jen jednu kartu 
+nepoužívat: ifconfig, route 
+používat: ip 
+
+ip addr <- vypíše ip adresy
+ip addr add 192.168.56.50/24 brd + enp0s8 		<- přidej ip adresu na určitou ip s maskou 24 + znamená, ať si dopočítá z masky a dát to na enp0s8
+
+
+v [[/etc/netword$$$]]
+
+
+auto enp0s8
+iface enp0s8 inet static 
+	address 192.168.56.10
+	netmask 255.255.255.0
+
+pak v terminálu 
+	něco s if 
+	
+iptables -L 
+	optables má přepínače -A, -d, -L, -i
+iptables -A OUTPUT -o enp0s8 -d 8.8.8.8 -j DROP
+
+iptables -F <- flush
+iptables -A INPUT -i enp0s8 -s 8.8.8.8 -j DROP
+
+iptables -A OUTPUT -o enp0s8 -p icmp -d 10.02.3 -J 
+
+iptables -A OUTPUT -o enp0s8 -p udp --dport -d 10.02.3 -J  
+
+iptables -P OUTPUT DROP <- všechno, co jde z pc, bude dropnuto (defaultně) 
+iptables -A OUTPUT -p icmp -j ACCEPT 	<- tím specifikuju, že mi pingy půjdou, ale nic jiného (v závislosti na předešlém řádku)
+
+
+iptables -A INPUT -m limit --limit 1/s -picmp -j DROP 		<- omezení provozu na 1 ping za sekundu
+
+ip route add default via 192.168.56.10 <- pokud si s tím nevíš rady, pošli to na 56.10
+
+iptabls -t nat -A POSTROUTING -o enp0s3 -j MASQUARADE 	<- přidá maškarádu  (to si budu muset najít, ěnjak jsem to nestihl)
+
+sysctp -A vypíše všechny systémové nastavení v krernelu 
+sysctl net.ipv4.ip_forvard=0 a nepinguje
+
+
+nc -l -p 8888 	<- na jednom pc 
+na druhém netcat a ip adresu a dá se komunikovat 
+
+
+apt install iptables-persist
+
+iptables-save->/etc/iptables $
+
+iptables-restore [[/etc/iptables/rules.v4]] 	<- pravidla sde budou zavádět po startu 
+apt install net-tools
+
+netstat -pln
+
+

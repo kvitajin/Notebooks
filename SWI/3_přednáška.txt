@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-01T12:50:55+02:00
+
+====== 3 přednáška ======
+Created Pondělí 01 října 2018
+
+UC1 vytvoření objednávky
+	1. prodejce zvolí vytvoření objednávky 
+	2. systém vytvoří novou objednávku a vyzve uživatlee k zadání údajů
+	3. <<include>> UC2 vyhedání zákazníka
+	4. <<include>> UC4 vyhledání položek 
+	5. uživatel potvrdí objednávku 
+	6. systém přiřadí objednávce číslo a zařadí jej do evidence 
+	7. uživatel může vytisknout obj. <<extends>> UC8 tisk objednávky 
+
+extends 
+	5.1 uživatel chce vyvolat další položky 
+		5.1.1. UC pokračuje bodem 4
+	5.2. uživatel chce upravit info o zák
+		5.2.1 pokračuje bodem 3 standardního scénáře 
+	6.1 některé položky vyžadují delší dodací lhůtu 
+		6.1.1. systém informuje zákazníka o delší lhůtě 
+		6.1.2. uživatel potvrdí lhůtu 
+		6.1.3. UC pokračuje bodem 7
+		
+

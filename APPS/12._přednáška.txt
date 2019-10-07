@@ -1,0 +1,62 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-12-10T14:37:50+01:00
+
+====== 12. přednáška ======
+Created Pondělí 10 prosince 2018
+
+paralelní systémy 
+dělení: flynova taxonomie
+
+
+		SI			MI
+SD |	SISD	|	MISD
+MD|	SIMD	| 	MIMD
+
+
+dělení podle paměti 
+
+	sdílený adresní prostor 
+		NE						|		ANO
+NE	   |	sekvenční systémy	     |		multicore, UMA, SMP
+ANO|	multipočítače, clustery   |		NUMA 							<- not unified memory access
+
+^
+|
+distribuovaná paměť
+
+
+amdahlův zákon 
+Fs sériová část 
+fp- pararelní část 
+
+1=fs+fp 	=>t*fp/p
+
+Sz= t/(t*fs+(t+fp/p))=1/(fs+fp/p)
+
+
+SMP
+{{./pasted_image.png?width=480}}
+
+
+schéma:
+	dokonalé promítání 
+	skokonalé oddělení 
+	motýlek sse symetrií
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-18T09:07:45+02:00
+
+====== 1. cviko - půjčovna dronů ======
+Created Úterý 18 září 2018
+
+pújčovna dronů
+uživatel přijde na stránku/ na pobočku a může si půjčit drona
+na eshopu bude u každého drona stav půjčky, stav dronu, tarifní cena, pořizovací cena
+uživatel si po registraci může půjčit/koupit drona/y
+uživatel může platit kartou, nebo hotově v případě půjčení na pobočce
+zaměstnáváme tyto lidi: 
+	správce eshopu
+	2 technici
+	IT specialista (děvka pro všechno)
+	prodavač
+	účetní/manažer/marketing
+potřebujeme 
+	sklad, 
+	servisní středisko
+	servisní systém napojený na eshop
+	
+	
+
+začínám od vize, co by to mělo dělat
+pak need- co potřebuju
+pak z toho nějaké features
+pak popisuju požadavky (user story->rozepsat do detailů)shrnuté do kategorií, celků
+(pozadavky se dělí do funkčních a nefunkčních)
+
+

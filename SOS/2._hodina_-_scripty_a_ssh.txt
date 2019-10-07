@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-02-18T12:43:44+01:00
+
+====== 2. hodina - scripty a ssh ======
+Created Pondělí 18 února 2019
+
+cat
+mkdir
+ls
+> přesměrování a přepíše
+>> přesmerování a přidá na konec
+
+nastavování quoty 
+	for i in 1 2 3; do echo $i; done   <- ukazka foru
+	for i in $(cat sosq); do echo $i; edchuota -p kvi0029 $i ;done     <-zvedne quotu vsem v souboru sosq quotu na stejnou, jako kvi0029
+zkopírovnání adresářů  
+	for i in $(ssh kvi0029@linedu.cs.vsb.cz ls [[/home]]); echo  $i; done 
+	for i in $(ssh kvi0029@linedu.cs.vsb.cz ls [[/home]]); do mkdir $i; done 
+cat [[/var/log/ldap_key.log]] | grep kvi0029 | cut -d  ' ' -f 8 | sort -u | grep ":" 
+tr - nahradí znak jiným 
+
+cviko 
+	for i in $(shh kvi0029@linedu.cs.vsb.cz ls [[/home/fei]] | grep '00' ); do mkdir $i; done
+
+test  -e  [[/tmp]] (otestuje existeni složky)
+[ -e [[/tmp]] ] <-ekvivalent predesleho radku
+
+$$vypíše počet parametrů, kolik dostal skript 
+$0 vypíše název skriptu 
+$1 první parametr 
+$@ všechny parametry 

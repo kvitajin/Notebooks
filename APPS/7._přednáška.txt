@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-12T14:35:24+01:00
+
+====== 7. přednáška ======
+Created Pondělí 12 listopadu 2018
+
+CUDA 
+	týká se jen nvidie
+	je navržena tak, aby ji mohli využít i neinformaciti (aspoň v omezené míře)
+	používá se masivné paralelismus - u obrázku se program rozdělí na tolik vláken, kolik je pixelů 
+	nutno se vyhnout výjimkám 
+	vyhnout se i ifům... ale všechny vlákna musí jít stejnou cestou 
+	

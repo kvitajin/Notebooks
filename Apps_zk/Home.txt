@@ -1,0 +1,105 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-01-12T21:07:37+01:00
+
+====== Intel x86 ======
+Created Sobota 12 ledna 2019
+
+intel 8080 
+	datová 8, adresní 16
+intel 8086 
+	datová 16, adresní 20
+	první 16bit
+	adresoval až 1MB paměti
+intel 8088
+	to samé, co 8086, ale datová 8
+	pro embeded a socky
+	PC-XT
+intel 80186/188
+	datová 16/8, adresní 20
+	vyšší rychlost
+	80188 nekompatibilní s  PC-XT
+intel 80286
+	datová 16, adresní 24
+	rychlejší + možnost taktovat
+	technické novinky a bugy
+	real-mode a protect-mode
+	memory management unit -umožnila stránkování
+ intel 80386DX 
+	datová 32, adresní 32
+	plná zpětná kompatibilita
+	příbyl virtual mod- možnost v pm zapnou  program pro RM v PM
+	řadič vyrovnávací paměti
+intel 80386SX
+	steně, ale datová 16
+	
+koprocesory pro FPU
+	intel 8087/287/387
+	do separátní patice
+	samo nefungovalo jako procesor
+
+intel 80486DX/i486DX 
+	datová 32 adresní 32
+	pětinásobný počet tranzistorů
+	L1 přímo v procesoru 
+		pro data i kód a měla 8kB
+	matematický koprocesor
+	i486SX 
+		bez FPU
+	i486DX2
+		přišla později a měla dvojnásobné frekvence
+	i486DX4
+		zase později a 3x rychlejší
+		ztrácí kompatibilitu s předešlýma verzema 
+intel pentium 
+	datová 64, adresná 32
+	risc 
+	superscalární, dvě ALU
+	rozdělení L1 na kód a datovou
+	hot as fuck
+intel pentum pro 
+	do serverů
+intel pentium II
+	datová 64, adresová 32
+	technické řešení od pentia pro
+	512kB L2
+	Hi-end je Xeon
+Pentium III
+	pridání jednotky SSE zlepšuje predicki skoku 
+	hlavně vhodné pro přenosné pc
+Pentium IV
+	datovíá 64, adresní 36
+	architektura [[NetBurst]]
+	velká sláva, velký shit
+	podobná rychlost, jako předchozí verze ,jen více topila
+	rozdělení procesoru na 4 celky
+intel pentium IV EM64T
+	datová 64, adresní 40
+	aprvní 64 bit architektura 
+	30 úrovňové zřetězené, 
+	uspěchaný vývoj kvůli AMD
+	přehřívalo se
+intel pentium M
+	datová 64, adresní 32
+	postaven na PIII
+	nízká spotřeba, dobrý výkon
+intel core , core duo, core solo
+	datová 64, adresná 36
+	PM pokračuje témto
+	příkon se snížilodosr na to, aby tam mohly být dvě jádra
+core 2
+	datové 64, adresní 36, nebo 40
+	založeno na PPro
+	64 bitový proc
+	[[NetBurst]] tímto zaříznut
+Intel Atom
+	daotvá 64, adresní 32
+	pro ultrabooky
+	technologie HT
+Itanium , Itanium 2
+	pro servery
+	na piču zpětná kompatibilita, ale jinak good
+	nová instrukční sada
+	
+	
+	

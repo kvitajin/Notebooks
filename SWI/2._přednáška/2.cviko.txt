@@ -1,0 +1,58 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-25T09:21:27+02:00
+
+====== 2.cviko ======
+Created Úterý 25 září 2018
+
+UC1 přihlášení 
+	1. uživatel vyplní jméno heslo
+	2. program vyhledá v db, jestli je uživatel v databázi
+	3. návrat na defaultní stránku, s fixním přihlášením
+
+UC2 registrace
+	1. uživatel klikne na tlačítko Registrace
+	2. vyplní registrační formulář (os. udáje, email, pass, soihlas GDPR, nepovinně telefon)
+	3. sofware dynamicky ověřuje údaje
+	4. pokud je vše OK-> uložení do databáze 
+	5. ověřovací email->vyčkání na ověření uživ.
+
+UC3 objednání-pronájem
+	1. uživatel listuje v eshopu
+	2. systém zobrazuje zákl. údaje ke každemu produktu (cena, info, stav) a zároven možnost  rovnou přidat do košíku s možností určit si dobu pronájmu
+	3. Nabídka jestli chce pokračovat v nákupu-> UC3, nebo zaplatit->UC4 
+
+UC4 košík
+	1. možnost práce s košíkem, odstranění položky nebo upráva počtu kusů a nastavení doby pronájmu
+	2. pokračování v objednávce: možnost express platby UC5 nebo přihlášení UC1
+	3. Systém si vyžádá dodací adresu, telefon (pokud nebyl vyplněn při reg)
+	4. Celkový přehled objednávky
+	5. Systém nabídne zakazníkovi možnost platby (kreditní karta, převod, pay-pal)
+	6. Zakazník si vybere možnost platby a řídí se instrukcemi 
+	7. Systém čeká na povrzení platby
+	8. Dokokončení objednávky
+UC5 express
+	1. vyplnnění osobních údajů+mail
+	2. vyplnění dodacích údajů
+	3. souhlas s obchodními podmínkami 
+	4. návrat do UC4.4
+
+UC6 e-shop
+	1. pogram z databáze vylistuje všechny produkty, jejich popisky a ceny
+	2. seřadí je podle nejvíce objednávaného modelu+novinky
+	3. řazení podle filtru, co si zvolí uživatel 
+
+EXT
+	UC1.2.1. nesprávné jméno, nebo heslo
+	UC2.3.1. uživ již exist
+	UC2.3.2. věková hranice 18+
+	UC2.3.3. weak pass
+	UC 4.1.1 prázdný košík-> hláška a návrat na eshop
+	UC4.3.1. nevyplněny všechny údaje
+	UC4.3.2. špatné vyplnění údajů
+	UC4.5.1 kreditní karta-> brána
+	UC4.5.2. převod-> zobrazení platebních údaj
+	UC4.5.3. PayPal-> přesměrování na platební bránu
+	UC 4.6.1. Platební brána vrátí chybu, zamítnutí
+	
+

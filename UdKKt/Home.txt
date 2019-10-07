@@ -1,0 +1,98 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-19T17:47:23+01:00
+
+====== Přednáška 1 ======
+Created Pondělí 19 únor 2018
+
+===== Telekomunikační technika =====
+
+telekomunikace=komunikace na velkou vzdálenost pomocí technických prostředků
+telekomunikační technika se zabývá přenosem telkom. signálů
+	* telefonních
+	* rozhlasových
+	* televizních
+	* datových
+	* signalizačních
+	* měřicích
+	* řídících
+	* ...
+{{./pasted_image001.png}}
+Koncové zařízení (KZ) přeměňuje signály na signály vhodné k přenosu (např. akustické na elektrické).
+Spojovací systémy (SS) přepojují signál do žádaného směru, resp. mění časovou polohu signálu.
+přenosové systémy jsou tvořeny přenosovými prostředky mezi SS
+Koncové zařízení linkového traktu (KZLT) přeměňuje signály na signály vhodné pro přenos po daném přenosovém médiu
+
+Kanál- jednosměrný přenos dat
+Okruh- obousměrná komunikace
+Spoj- trvale obousměrné spojení
+
+===== Přenosové média =====
+
+	* atmosféra
+	* vodiče
+	* metalické vlnovody
+	* optické vlnovody
+
+===== Vedení =====
+
+vedení= soubor prostředí pro vedení elektromag vln
+	* venkovní nadzemní drátoví
+	* symetrická kavelová vedení
+	* koaxiál
+	* vlnovodná vedení-vf-rozhlasové a televizní vysílače
+	* optická vedení (optická vlákna)
+Linkový trakt – vedení včetně – zesilovacích a korekčních prvků (analog)
+						 – opakovačů (digital)
+
+
+===== Typy vedení =====
+
+Simplex
+	jedním směrem
+	(rozhlas, televize)
+Poloduplex
+	střídavě jedním a druhým směrem
+	(vysílačka)
+Duplex
+	oběma směry
+	(telefon)
+	
+===== Telekomunikační sítě =====
+
+Páteřní	  - mezi uzly sítě (ústředny, přepínače, směřovače, servery, databanky, Strahov...)
+Přístupové - přenos mezi uzlem a účastníkem 
+
+Nadstavbou je TMN -úkolem:
+	* dohlížet a řídit tech. prostředky
+	* zřizování
+	* sledování
+	* ukončování požadovaných služeb
+	* kasírování
+
+===== Páteřní sítě =====
+
+velké objemy dat
+velká vzdálenost
+vysoké nároky na spolehlivost
+přenosová rychlost  až stovky Gb/s (jak pro Strahov)
+optika
+obvykle vícenásobné využití přenosového média (WDM)
+
+===== Přístupové sítě =====
+
+připojení k páteřní síti
+připojení účastníků mezi sebou
+obvykle metalické kabely, rádiové přenosy
+
+===== Vícenásobné využití přenosového média =====
+
+obvodový multiplex (fantomní vedení)
+frekvenční multiplex (FDM různé frekvence- rozhlas)
+časový multiplex (TDM přenášeno v jiný okamžik)
+vlnový multiplex (WDM- jiná vlnová délka- optická vlákna)
+kódový multiplex (CDM každý kanál jiné kódvání)
+
+===== signál, zpráva, informace =====
+
+

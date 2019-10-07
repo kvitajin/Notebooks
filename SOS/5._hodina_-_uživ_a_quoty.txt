@@ -1,0 +1,77 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-11T12:36:04+01:00
+
+====== 5. hodina - uživ a quoty ======
+Created Pondělí 11 března 2019
+
+adduser pokud chci pridat jednoho uzivatele 
+[[/etc/passwd]] 
+
+deluser mazání 
+
+useradd pro skripty 
+	useradd -m -s [[/bin/bash]] -c "Franta2" -p "" franta2
+		m udělá domovský odresář 
+		s přihlašovací shell 
+		c komentář (cokoliv chci)
+		p heslo 
+		jméno
+passwd nastaví heslo 
+	pracuje s /etc/shadow 
+passwd -e franta2 
+	nechá ho expirovat heslo a při prvním přihlšení si ho musí změnit 
+aptǵet install openssl
+useradd -m -s [[/bin/bash]] -c "Franta3" -p $(echo 1234 | openssl passwd -1 -stdin)  franta3
+addgroup jmeno 
+	přidá skupinu 
+addgroup koho kam 
+	přidá uživatele do skupiny 
+chgrp student [[/student/]]
+
+chmod g+w [[/student/]] 
+
+s bit
+	jakmile uživatel vytvoří složku, tka to patří jemu a jeho domovské skupině 
+	chmod g+s [[/student/]] 
+		když franta2 udělá tocuch test2, tak ten soubor bude patřit do domovské složky skupiny a ne skupiny 
+	chmod u+s je dost nebespečný , dává uživateli root práva 
+t bit
+	temporary 
+	jen uživatel, kdo ho vytvořil, ho dokáže smazat (dává se složce) 
+	
+
+--------------------
+
+==== Quoty ====
+cfdisk něco 
+mount [[/dev/sdb1]] [[/mnt/]]
+
+cp -a [[/home/*]] [[/mnt/]]
+
+mount [[/dev/sdb1]] [[/home/]]
+mount něco 
+
+quota [[/home]]
+	nešlo 
+mount -o remount, usrquota, grpquota [[/dev/sdb1]]
+
+**service quota start** 
+	nastartuje proces, který se o quoty staráip
+quotaon /home
+	v tenhle moment mají uživatelé quoty, ale ještě je nemají nastaveny 
+edquota franta2
+	tam pak nastavit quotu u užitavele
+	měkký a pevný
+	0 je bez omezení 
+edquota -p franta2 franta3 
+
+
+
+
+
+
+
+
+
+

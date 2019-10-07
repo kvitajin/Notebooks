@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-17T12:48:21+02:00
+
+====== 1. hodina ======
+Created Pondělí 17 září 2018
+cs.vsb.cz/stolfa
+řeší životní cyklus programu 
+sw je v dnešní době úplně všude
+softwarové inženýrství 
+	rozloží problém na jednotlivé malé problémy a až je všechny vyřeší,t ak zase poskládá dohromady
+	
+

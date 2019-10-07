@@ -1,0 +1,53 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-26T09:17:57+02:00
+
+====== 2. přednáška ======
+Created Středa 26 září 2018
+
+restrikce(selekce)
+	jedná se o výběr některých řádků ze vztupní relace 
+projekce 
+	vybírá sloupce 
+	duplicity jsou eliminovány 
+kartézský součin 
+	kombinace každého s každým (i to, co spolu nesouvisí )
+	databázový grupáč 
+přiorzené spojení 
+	vyberou se ze dvou tabulek ty hodnoty, které mají stejné jméno atributů 
+theta spojení 
+	vyberou se jen ty ze spojení R x S, které odpovídají podmínce 
+přejmenování 
+
+relační algebra bude na závěrečné zkoušce 
+př 
+	Zaměstnnec(zID, jméno, věk, pohlaví)
+	Pracuje(zID, uID)
+	úkol(uID, názevv, rozpočet)
+SQL 
+	-jazyk pro komunikaci s daty 
+	
+jména všech studentů, kteří se narodili po roce 1985
+	SELECT jmeno FROM student WHERE rok >1985
+NULL je zrádné místo něj se dotazovat na is null, ne =null
+	SELECT jmeno FROM student WHERE rok __is__ null 
+jména všech studentů, kteří se nenarodili 1984
+	 	SELECT jmeno FROM student WHERE rok __<>__1984 and rok is null
+ke každému jménu studenta vypište i pID předmětu, který studuje, či studoval 
+	SELECT jmeno, pID from student, studuje, WHERE student.sID=studuje.sID
+	nebo s aliasy:
+	SELECT jmeno, pID from student st, studuje se WHERE st.sID=se.sID
+vypište pID všech předmětů, které v roce 2011 studoval student se jménem student 
+	SELECT pID FROM student st, studuje se, predmet p WHERE st.sid=se.sid AND se.pid=p.pid and st.jmeno='petr' and rok 2011 
+vypište sID všech studentů, kteří začínají na s
+	select sID FROM student WHERE jmeno LIKE 'p%'
+vzpi3te v jak0m p5edm2tu studovali jednotliv9 studenti jednotlivé předměty 
+	select st.jmeno, se.pID, rok-rok narozeni __AS __vek  FORM student st, studuje se, where st.sID= se.sID
+vypište všechny studenty seřazené sestupně podle roku narození 
+	SELECT * FROM student st ORDER BY rok narození desc 
+vypište dohromady jména všech studentů a předmětů
+	select jmeno FROM  UNION ALL SELECT jmeno FROM predmet
+	
+	
+	
+	

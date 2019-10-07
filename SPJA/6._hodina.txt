@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-24T11:03:10+02:00
+
+====== 6. hodina ======
+Created Středa 24 října 2018
+
+json se chová zlehka jako python, co se závorke týče 
+

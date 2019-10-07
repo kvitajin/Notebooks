@@ -1,0 +1,66 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-12-06T07:31:18+01:00
+
+====== 51. cvičení ======
+Created Čtvrtek 06 prosince 2018
+
+==== funkční závislost ====
+
+X->Y
+
+x i y jsou atributy 
+na jedno x bude vždy stejné y
+
+definice: pro každý záznam atributu x jsou vždy stejné hodnoty atributu y
+
+jméno_filmu->délka studio 		NE
+jméno_filmu rok->délka studio 	ANO
+studio->jméno_filmu				NE
+jméno_herce ->datum narozeni id_bydliste 					**ANO**/NE
+jméno_filmu jméno_herce->datum_narozeni id_bydliste		ANO (ani se nediskutuje, pokud platí to predešlé )
+datum_narozeni ->ulice mesto 	
+
+
+==== nalezení uzávěru a klíče ====
+
+1. jméno_filmu rok -> delka studio 
+2. jmeno_herce-> datum_narozeni id_bydliste
+3. id_bydliste->ulice mesto
+
+--------------------
+ rok, jmeno_herce+=rok jmeno_herce, datum_narozeni, id_bydliste, ulice, mesto
+datum_narozeni+=datum_narozeni
+jmeno_filmu, rok, jmeno_herce+=jmeno_filmu, rok, jmeno_herce, datum_narozeni, id_bydliste, ulice, mesto, delka, studio			<- klíč (jsou tam všechny atributy)
+jmeno_herce+=jmeno_herce, datum_narozeni, id_bydliste, ulice, mesto
+
+==== Minimální neredundantní funkční závislosti ====
+
+1. W->Z
+2. YZ->X
+3. WZ->YZ
+
+--------------------
+trojku rozložit 
+4. WZ->Y
+5. WZ->Z
+uzávěry pro ty první tři 
+W+= W, Z, X, Y
+YZ+=YZ, X
+WZ+= W,Z,X,Y
+podívám se na zásislosti, kde je více, než jeden atribut 
+vezmu jeden atribut (např Y a udělám jeho funkční závislost, pokud bude stejná, jako YZ, tak je tam můžu vyhodit)
+Y+=Y
+Z+=Z
+W+=W,Z,X,Y a to je stejné, jako WZ, tj Z je zbytečné 
+
+pak zkusím smazat jednotlivé řádky (1..5) a jestli se mi něco ztratí, tak to je potřeba, pokud ne, tak to tam být nemusí 
+W+= W, Y, X 				<- chybí Z, tj 1. je potřeba
+YZ+= Y, Z					<- taky musí být 
+W+=Z, X, W				<- taky zůstává 
+W+=W, Y, Z, X			<- 5. je zbytečná 
+
+
+
+
+

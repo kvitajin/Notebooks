@@ -1,0 +1,34 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-17T10:55:20+02:00
+
+====== 5. hodina ======
+Created Středa 17 října 2018
+moduly
+
+from mymodule import sqr
+
+from mypackage.mymodule import sqr
+pokud je to složka, musí tam být soubor __init__.py
+
+testy v modulech je nutno udělat tak, aby se neimportovaly tj
+if __name__=="__main__:
+	if neco...:
+
+
+===== parsování XML =====
+	import xml.etree.ElementTree as ET			<- přejmenovat na ET, abych nemusel vždy psát to dlouhé 
+	root=ET.parse("menya.xml")
+	dates = root.findall('date') # list of elements
+	for date in dates:
+		print(date.attrib['day'])
+		meals = iter(date)
+		for meal in meals:
+			print('\t' + meal.attrib['name'])
+			for ingredient in meal.iterfind('ingredient'):
+				print('\t\t' + ingredient.attrib['name'])
+	
+	
+https://docs.python.org/3/
+https://docs.python.org/3/py-modindex.html
+

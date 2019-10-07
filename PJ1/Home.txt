@@ -1,0 +1,42 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-17T10:57:34+02:00
+
+====== Hodnocení ======
+Created Pondělí 17 září 2018
+
+uápočet 23-45 bodů
+dú 				0-10b
+1. test 			0-5b
+2. test 			5-10b
+semestrální projekt 10-20b
+
+zkouška 			28-55b
+
+https://docs.oracle.com/javase/tutorial/
+
+Java SE 	-	 standard edition 
+	* desktopy
+Java EE 	-	Enterpice 
+	podnikové aplikace (serverové)
+	uživatelé komunikují přes webový prohlížeč
+Java ME 	-	micro edition
+	původně zamýšlen na mobily
+	dnes mrtvé 
+Javu není nutné kompilovat zvllášť na Widle, Linuxu a Sunu, lae je jeden javy bytecode a ten pak jede všude, kde je na pc JRE (Java runtime enviroment)
+	
+	kompilace  
+		javac Launcher.java
+	running
+		java -cp {path-to-your-compiled-slases} Lanucher
+		
+block of code
+public class Example{
+	public ...
+
+objekt =entita odlišitelná od jiné
+	má nějaký stav a nějaké chování
+	
+https://www.lms.vsb.cz  jsou slidy
+
+

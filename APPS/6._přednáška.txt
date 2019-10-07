@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-05T14:40:37+01:00
+
+====== 6. přednáška ======
+Created Pondělí 05 listopadu 2018
+
+==== tvorba obrazu ====
+na CRT se obraz vykresluje po řádcích, tj obraz je lineární (proud bodů)
+
+kabely jsou pro barvy 3 (R, G, B), 
+pak další kabely pro správu: v-sync 
+	R: 0-0.7V
+	G:								
+	B:
+
+
+		\/ 
+	šířka pásma 
+	band width= šířka *výška*frequ_opak*(1+režie)
+										(0.25÷0.3)
+
+GPU->videopaměť-> serializace
+							-analogová(VGA)
+							-digitální (DVI, HDMI, DP)
+							-LVDS
+								+DDC 	(zjistí info o monitoru
+
+v paměti není matice, ale řádek 
+
+
+LCD 
+	liquid crystal display
+	dělí se 
+		aktivní-TFT
+		pasivní 
+	TN/IPS LCD TFT
+	další dělení 
+		podsvětlené 
+		reflexní 
+		

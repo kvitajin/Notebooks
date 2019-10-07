@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-04-22T20:04:23+02:00
+
+====== příprava na test ======
+Created Pondělí 22 dubna 2019
+
+1) 
+	při instalaci ftp.cz.debian.org 
+	nano [[/etc/apt/sources.list]] 
+	dhclient enp0s8
+2) 
+	apt install isc-dhcp-server
+	vim [[/etc/defaut/isc-dhcp-server]]
+	tam enp0s8 do intrfacesv4
+	vim [[/etc/network/intervaces.d/*]]
+	tam 
+		auto enp0s8
+		iface enp0s8 inet statis 
+			address 192.168.57.10
+			network 192.168.57.0
+			netmask 255.255.255.0
+	[[/etc/init.d/networking]] restart
+3)
+	lsblk
+	mkfs.ext4 [[/dev/sdb1|/dev/sdb]]	
+	
+
+

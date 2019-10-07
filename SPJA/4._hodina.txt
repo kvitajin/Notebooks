@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-10T11:08:57+02:00
+
+====== 4. hodina ======
+Created Středa 10 října 2018
+
+polymorfismus 
+	mnohotvarost
+	donutím objekt, aby se choval různě 
+	

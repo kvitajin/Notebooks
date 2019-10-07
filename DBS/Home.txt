@@ -1,0 +1,43 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-19T09:33:37+02:00
+
+====== 1. hodina ======
+Created Středa 19 září 2018
+
+databázový systém- aplikace pro vytvoření databáze
+databáze
+
+
+data můžou být strukturovaná více způsoby:
+	relační model (množina záznamů)
+	semistrukturovaný (XML, JSON, BSON)
+	graf (RDF)
+	nestrukturovaná data 
+
+entita - objekt reálného světa 
+atribut (vlastnosti entity
+entitní typ 
+vztah vztah mezi dvěma entitními typy 
+	lineátní zápis
+
+kardinalita vztahu 
+	jsou tyto typy: 
+		1:1, 1:N, N:M
+používá se E-R diagram 
+	(takové ty tabulky spojené čárama (případně s kuříma nohama)
+**relace =tabulka** 
+(relační) databáze= množina relací 
+integritní omezení = 
+	- jedná se o podmínky, které dále definují vlastnosti  jednotlivýc hatributů 
+	- může, nebo nemůže nabývat hodnoty NULL?
+	- konzistentní databáze = všechny relce vyhovují všem IO
+primární klíč - jednoznačně identifikuje řádek tabulky 
+cizí klíč- reprezentuje vazbu mezi relacemi 
+
+
+jména zaměstnanců, kteří pracují v odděleních, které mají obrat aspoň 10mega
+SQL
+	SELECT z. jmena FROM zamestnanec z, oddeleni o WHERE z.ID_oddeleni=o.ID_oddeleni and o.obrat>10
+
+

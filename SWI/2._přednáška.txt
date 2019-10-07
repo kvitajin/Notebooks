@@ -1,0 +1,78 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-24T12:48:27+02:00
+
+====== ->2_přednáška ======
+Created Pondělí 24 září 2018
+
+k čemu jsou dobré požadavky?
+	abychom se vyznali v tom, co tytváříme 
+	
+problém->potřeba/vize -> specifický požadavek->softvarový požadavek 
+																			 copycat!
+system **shall **be able to ...
+1. systém bude umět vytvořit objednávku 
+2. systém bude umět vyhledat objednávku 
+3. systém bude umět vyhledat zákazníka 
+4. systém bude umět vytvořit zákazníka 
+5. systém bude umět vyhledat položku 
+6. ...
+usercase modely
+	hodí se na systémy a komunikaci s uživatleem 
+	základní prvky: 
+		aktér- někdo, kdo interaguje se systémem
+		 use case- "případ užití" funkčnost daného systému 
+			popisuju, jak mám do black boxu volat a co se mi má ozývat z5
+
+případ užití 
+	prodejce 
+		UC1 vytvoření objednávky 
+			1. prodejce zvolí vytvoření objednávky 
+			2. systém tvoří novou prázdnou objednávku a vyzve uživatele k zadání zákazníka 
+			3. uživatle zvolí vyhledání zákazníka
+			4. systém zobrazí seznam s možností vyhledání 
+			5. uživatel zadá info o zákazníkovi 
+			6. systém vyhledá zákazníka dle zadaných informací a zobrazí seznam odpovídajících
+			7. uživatel zvolí zákazníka
+			8. system zobrazí detail zákazníka
+			9. uživatel potvrdí zákazníka
+			10. systém potvrdí výběr zákazníka
+			11. uživatel zvolí výběr položek
+
+			3-10 je nový UC2 vyhledání zákazníka=>
+			
+
+		UC2 vyhledání zákazníka
+			1. uživatle zvolí vyhledání zákazníka
+			2. systém zobrazí seznam s možností vyhledání 
+			3. uživatel zadá info o zákazníkovi 
+			4. systém vyhledá zákazníka dle zadaných informací a zobrazí seznam odpovídajících
+			5. uživatel zvolí zákazníka
+			6. system zobrazí detail zákazníka
+			7. uživatel potvrdí zákazníka
+			8. systém potvrdí výběr zákazníka
+
+1. prodejce zvolí vytvoření objednávky 
+2. systém tvoří novou prázdnou objednávku a vyzve uživatele k zadání zákazníka 
+3. include UC2 vyhl. zákazníka
+4. include UC3 vyhl. položek
+5. uživatel potvrdí objednávku
+6. system přiřadí objednávce číslo a zařadí objednávku do listu objednávek
+7. uživatel může vytisknout objednávku <<extends>>tisk  objednávky 
+
+
+ale co se stane, když např v bodě 4 UC1 nic nenajdu?
+	to řeší extensions
+	ext UC1 4.1 system nenajde žádného zákazníka
+				4.1.1 uživatel zvolí vytvoření zákazníka <<extends>> UC5
+					4.1.2.1 uživatel zvolí vyhledání znovu
+					4.1.2.2.zpět na bod hl. scénáře
+			4.2systém najde zákazníka
+				4.2.1. system pokračuje bodem 6
+identifikuju hlavní případy užití, píšu ten hlavní pozitivní scénář (později přidávám do ext, co se může zkurvit) a jakmile je hlavní scénář, tak můžu začít programovat 
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-04T12:45:49+01:00
+
+====== 4. hodina - raid ======
+Created Pondělí 04 března 2019
+
+lsblk <- vylistuje disky 
+mkfs <-tytváření file systémů 
+dominantní ext4 na linuxu 
+mkfs.ext4 [[/dev/sdb1]] <-formátuje/dev/sdb1
+20,56
+mount [[/dev/sdb1]] [[/mnt/]]
+
+cp -a [[/home/*]] [[/mnt/]]
+	ačko neřeší práva kopírování , ale zachovává vlastníka toho souboru (tj když kopíruju jako root, tak nedostane vše root, ale nechá si svoje)
+mount [[/dev/sdb1]] [[/home/]]
+vim [[/etc/fstab]]
+	tam 
+	[[/dev/sdb1]]	[[/home]]	ext4	defaults	0	0	
+(cp -a [[/mnt/*]] [[/home]])
+umount [[/mnt/]]
+umount /home
+mount -a
+
+mdadm --create [[/dev/md0]] --level=1 —raid-device=0 [[/dev/sdb]] [[/dev/sdc]] --spare-devices=1 [[/dev/sdd]] 
+	spare je dobrý pro případ havarování- dopočítá se na něj data z havarovaného a převezme joho funkci 
+	
+	
+mdadm --manage [[/dev/md0]] --set-faulty [[/dev/sdc]] 
+
+
+
+LVM
+	vgcrerate test [[/dev/sdb]] 
+	lvcreate -L 50M n padesat test 
+	
+
+
+zformátovat raid, zkopírovat home a přidat do fstabu
+pak mu ublížit 
+

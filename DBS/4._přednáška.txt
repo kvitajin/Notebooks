@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-10T09:09:53+02:00
+
+====== 4. přednáška ======
+Created Středa 10 října 2018
+
+select* from student st left join studuje  se on st.sID= se.sID order by st.sID and rok=2012
+
+nez napiseme group by, zkusit se to zobrazit bez něj a zkusit si odhadnout, jaký bude výsledek (jestli to následně sedí)
+
+dotazy jsou v DataGripu
+

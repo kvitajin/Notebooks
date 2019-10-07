@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-18T16:05:23+02:00
+
+====== Home ======
+Created Úterý 18 září 2018
+
+http://mrl.cs.vsb.cz/people/holusa/spja_course
+ 

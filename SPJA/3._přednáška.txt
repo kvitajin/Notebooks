@@ -1,0 +1,65 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-03T11:11:18+02:00
+
+====== 3. přednáška ======
+Created Středa 03 října 2018
+
+TŘÍDY 
+	 class Counter:
+	class Counter(object):															} tri moznosti zapisu
+	class Counter (SuperClass): 			<- dedi vse z predesle classy
+		def __initr__(self, count=0):		<- priklad inicializace, self je neco, jako this
+			self.counter=count
+
+c=counter(3)
+print (c.counter)
+
+
+class Counter:
+	number_of_counters=0						<-tridni promenna
+	
+	def __init__(self, count=0):
+		self.__couner=count					<-instancni promenna, podtrzitka jsou private
+		Counter.number_of_counters+=1
+		'''
+	def __getCount(self):
+		return self.__counter
+	def __setCount(self, count):
+		self.__counter=count
+	count=property(__getCount, __setCount)
+	'''
+print (c.getCount())								#nepujde, je to privatni
+
+	@property
+	def count(self):
+		return self.__counter
+	@count.setter
+		def count(slef, count):
+			if count>0:
+			self.__counter=count
+	def print_no_counters():
+		print("{}".format(Counter.number_of_counters))
+		
+	deff __add__(self, other)
+	returnCounter(self.count+oter.count)
+	
+	
+	
+class A():
+	def __init__(self);
+		self.u=1
+	def foo(self):
+		print("foo from A")
+class B(A):
+	def __init__(self):
+		super().__init__()
+		self.v=2
+	def foo(self):
+		print("foo from B")
+
+a=A()
+b=b()
+
+a.foo()
+b.foo()

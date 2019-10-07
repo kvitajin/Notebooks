@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-01-14T22:32:22+01:00
+
+====== DIM ======
+Created Pondělí 14 ledna 2019
+
+a) Všechny kompletní grafy s alespoň třemi vrcholy jsou Eulerovské
+Ne​ - např. K​4(domeček), nelze nakreslit jedním tahem, má všechny stupně liché
+b) Součet sudých stupňů souvislého grafu G musí být větší než součet lichých stupňů grafu G
+Ne​- ­ např. K​4 má pouze liché stupně
+c) Pro všechny vrcholy v síti platí zákon kontinuity
+Ne​- ­ neplatí pro zdroj a stok
+d) Počet oblastí souvislého rovinného grafu závisí pouze na počtu vrcholů a hran grafu G
+Ano​ - viz Eulerův vzorec → v + f ­ e = 2
+e) Indukovaný podgraf stromu může být kompletním grafem.
+Ano​-­ indukovaný podgraf může být i samotný graf, a pokud je ten kompletní, tak je i podgraf kompletní ­ pro strom to může platit, pokud se jedná např. o K​1, nebo K​2

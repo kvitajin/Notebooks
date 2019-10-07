@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-03T09:15:32+02:00
+
+====== 3. přednáška ======
+Created Středa 03 října 2018
+
+vypište dvojice všech kůzných studentů, kteří se narodili ve stejný rok 
+	SELECT * FROM student st, student st2 WHERE st.bday=st2.bday AND st.stID<st2.stID
+studenti, kte59 v roce 2000 n2co studovali 
+	SELECT DISTINCTs.stID st.name FROM student2 st, studies sy WHERE  st.st.ID =st.stid and sy.year=2000
+	SELECT  st.stid st.name from student st WHERE st.stid in (select stid FROM studies WHERE year=2000) 		<- lepší varianta 
+pid predmetu, ktere studuji pouze studenti narozeni po 1985
+	SELECT * FROM subject st WHERE suid not in ( SELECT suid FROM student st, studies se WHERE st.stID=se.stID and st.byear<=1985)
+vypiste vsechny prdmety, kde existuje dalsi predmet pro stejny rocnik
+	SELECT * from subject st WHERE EXISTS (SELECT1 from SUBJECT s2 WHERE s1.suID!=s2.suID and s1.study_year=s2.study_year
+vypište nejstaršího studenta 
+	SELECT * FROM student st WHERE NOT EXISTS (select1 FROM student s2 WHERE s2.stID!=st.stID and s2.birth_year<st.birth_year) and birth_year IS NOT NULL
+	SELECT * FROM student s WHERE birth_year<=all(SELECT birth_year FROM student WHERE birth_year IS NOT NULL) 
+
+**INNER JOIN**
+	vnitřní spojení 
+	INNER JOIN ON podmínka=
+	
+	SELECT distinct * FROM student s JOIN studies is ON s.stID=st.stID
+	

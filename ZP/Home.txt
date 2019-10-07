@@ -1,0 +1,395 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-19T14:31:39+02:00
+
+====== Home ======
+Created Středa 19 září 2018
+v zápočtovém týdnu poslat na adresu advokatkarabis@post.cz smlouvu. na 3 strany (seminární práce)
+v předmětu středa základy práva
+
+právo je 
+	- soubor pravidel chování, zobecněné
+	-vynucovatelné 
+	- přijímaná určitým právem předpokládaným způsobem
+	- obecně platná
+	- vynutitelná
+**Právo a stát** 
+	- stát vytváří právo 
+	- garantuje a vynucuje dodržování práva 
+	- je adresátem práva 
+**Právní systémy**
+	1. kontinentální- čr
+	2. anglosaský
+	3. islámský
+	4. hinduistický 
+kontinentální:
+	základním pramenem práva je psaná právní norma
+	stojí na základech římského práva 
+	státy mají zpravidla psanou ústavu 
+anglosazský: 
+	obyčej
+	vychází z nepsaného práva
+	precedent
+	(u nás byly precedenty, ale už nejsou)
+	
+	
+
+
+právní norma. 
+	zobecněné pravidlo chování 
+	přijaté předepsaným způsobem
+	má předepsanou formu (písemnou)
+	je vymahatelná 
+	reguluje závazným způsobem určitý vymezený okruh spol. vztahů 
+	ucelený soubor právních norem tvoří **právní předpis** 
+	
+struktura právní normy 
+	hypotíza
+	dispozice
+	sankce
+	
+	to tvoří perfektní právní normu
+	(inpergektní p.n.- bez sankce)
+	
+	
+prameny práva v ČR:
+	ústava čr +LZPS (listina základních práv a svobod)
+	ústavní zákony
+	zákony (trestní z., občanské z., z. práce,...)
+	normativní smlouvy (kolektivní smlouvy)									**originární (původní) právní předpisy**
+	mezinárodní smlouvy 
+	právo EU
+	obecně platné vyhlášky v samostatné působnosti obce (kraje)
+	
+	derivativní právní předpisy(odvozené) 	 						=> prováděcí předpisy (k provádění předpisu vyšší právní síly)
+		nařízení vlády (dle článku 78 ústavy=>enerální zmocnění)
+		vyhlášky ministerstev
+		vyhlášky obcí(krajů) v přenesené působnosti
+		nařízení rady obce (kraje)
+	právo EU
+		zakládací smluvy
+		směrnice 					}týkají se všech členských států
+		nařízení 
+		-------------------------------
+		doporučení 					}jednotlivé státy 
+		stanoviska
+
+			směrnice má jen určeno, čeho má být dosaženo a do kdy (a je na každém státě to, aby vytvořila vlastní právní předpis)
+			nařízení 
+
+	
+	originární nejsou ničemu podřazené
+ústava
+	2. č. 1/1993- ústava čr
+	-Preambule (slavnostní uvození ústavního dokumentu)
+	8 hlav 
+1. hlava 
+	zdroj moci 		- 	lid - vykonává ji prostřednictvím volených zástupců => zastupitelská demokracie (parlamentní)
+	charakter státu 	-	demokratický, právní, resp. mezinárodní závazky 
+	politický systém 	-	svobodný vznik a soutěž politických stran za resp dom. právního řádu
+	důraz na idská práva (ochrna menšin, odkaz na LZPS)
+	
+	legitimní - subjekt oprávněn vykonávat danou moc 
+	článek 10- princip aplikační přednosti mezi smlouvami (pokud mez. sml. říká něco jiného, než 2., použije se mez. sml.- mezinárodní smlouva  **musí**  být součástí právního řádu 
+	článek 10a- umožňuje přenos některých pravomocí na mezinárodní orgány 
+
+
+====== Moc zákonodárná ======
+
+parlament 
+	senát 
+	poslanecká sněmovna 
+		200/4 roky
+		21let-pasivní volební právo 
+		všeob, rovné, tajné přímé volební právo 
+		volební systém- poměrného zastoupení- 5%uznávací klauzule 
+		poslanecký mandát 
+			vzniká zvolením
+			zaniká 
+				vzdáním se mandátu
+				uplynutím volebního mandátu 
+				rozpuštění komnaty
+				smrtí 
+				nesložením slibu/složením s výhradou
+		imunita 
+			absolutní (idomnita)
+				za výkon svojí práce (hlasování, projev,...)
+				není stíhatelný ani v ten moment, ani v budoucnosti
+			podmíněná (souhlasem komory)
+				(rath, opencard, nákup letade-casa???)
+		neslučitelnost funkcí 
+			prezidenta, soudce, senátora 
+
+
+==== legislativní proces ====
+	návrh zákona (subjekty mající zákonodárnou iniciativu)
+		vláda 
+		senát
+		poslanec/skupina poslanců
+		zastupitelstva VÚSC (krajů) 
+	nějaké kroky
+	zákon musí bát zveřejněn ve Sbírce zákonů=>podmínka platnosti
+	po zveřejnění běží tzv. legisvakanční lhůta, po jejímž uplynutí je zákon účinný 
+	poslanci mají možnost interpelovat členy vlády vč. premiéra 
+		(poslanecké interpelace)- grilování člena vlády, proč něco udělal/ neudělal
+
+senát 
+	81 členů
+	6 let
+	každé 2 roky se mění 1/3
+	je nerozpustitelný  
+	věk 40 let- pasivní volební právo
+	v době, kdy je rozpuštěna PS může vadávat tzv zákonná opatření 
+
+
+====== Moc výkonná ======
+	prezident 
+		přímá volba
+		většinový volební systém 
+		40 let, občan ČR
+		má absolutní imunitu
+		osoba volitelná do senátu 
+		skládá slib do rukou předsedy hodní komory an spol. sch.
+		pravomoci: 
+			čl. 62. nevyžaduje spolupodpis (milost, 
+			čl63 vyžaduje spolupodpis=>odpovědnost přebírá vláda 
+	vláda 
+		vrcholný orgán výkonné moci 
+		kolektivní org., rozhoduje ve sporu 
+		čl. 78 ústavy=>generální zmocnění (nařízení vlády)
+		zodpovídá se PS, žádá o důvěru do 30 dní po jmenování 
+		lid->parlament, PS-> vláda
+	SZ (státní zastupitelstvo)
+		zastupuje stát v trestním řízení u soudu 
+		vykonává dohled na určité úkony v trestním řízení 
+		dělí se na 
+			nejvyšší sz
+			vrchní sz
+			krajské sz 
+			okresní sz 
+
+
+====== Moc soudní ======
+
+	soustava obecních soudů
+		1. okresní (obvodní)
+		2. krajské soudy(městský soud)
+		3. vrchní soudy 
+		4. nejvyšší soud 
+	správní soudnictví 
+		1. krajské soudy
+		2. nejvyšší správní soud
+	kontrola ústavnosti 
+		ústavní soud (nepatří do soustavy obecných soudů)
+	v čr máme dvojstupňový soudní systém
+
+
+občanský soudní řád 
+trestní řád 
+
+====== Trestní právo (oblast práva veřejného) ======
+- základním pramenem -LZPS
+- trestní zákoník 
+- trestní řád 
+
+
+==== Funkce TP ====
+	- ochranná 
+	- regulativní 
+	- preventivní
+	- represivní - trest nesmí být odplatou 
+
+
+==== Zásady TP ====
+	- zásada zákonosti-> zásada "není zločinu a trestu bez zákona"
+	- zásada přiměřenosti
+	- užití norem TP v krajním případě (ultima ratio)
+	- zákaz kolktivní újmy - individualizace pachatele 
+přečin vs zločin 
+ -řečin 
+	- úmyslné a nedbalostní t.č. s horní hranicí trestní sazby do  let 
+	- je možná odklon trestního stíhání (podmíněné zast., dohoda)
+	- je možno ukládat alternativní tresty a podmíněný odklad 
+
+
+==== Okolnosti vylučující protiprávnost ====
+	- nutná obrana
+	- krajní nouze
+	- svolení poškozeného 
+	- přiměřená míra rizika 
+
+
+==== Zánik odpovědnosti ====
+	- účinná lítost  
+		- když provede nějaké kroky na to, aby to napravil 
+		- zaniká trestní odpovědnost 
+	- promlčení 
+
+
+==== Trestní sankce ====
+	tresty:
+		- odnětí svobody
+		- peněžité
+		- propadnutí majetku 
+		- ztráta hodnosti 
+		- alternativní (OPP, domácí vězení)
+	ochranná opatření: 
+		- léčení 
+
+
+==== Trestní řízení ====
+	- prameny
+		- ústava
+		- LZPS
+		- trestní řád 
+	- zásady 
+		- legality
+		- oficiality
+		- přiměřenosti 
+		- ústnosti
+		- veřejnosti 
+		- presumpce neviny 
+		- právo na obhajobu 
+		- stíhání toliko ze zákonných důvodů 
+		- v pochybnostech ve prospěch obžalovaného  (in dubio pro reo)
+		- obžalovací 
+		- vyhledávací
+		
+
+==== Trestní řád ====
+	-upravuje postup org. činných v trestním řízení 
+
+
+==== Trestní řízení ====
+	1. fáze - prověřování 
+	2. fáze - zahájení tr. stíhání sdělením obvinění =>fáze vyšetřování (příprava řízení) 
+	3. fáze - podání žaloby 
+		a. řízení před soudem  (hlavní líčení)
+- podezřelý 
+- obviněný
+- obžalovaný
+- odsouzený 
+
+
+====== Správní právo ======
+
+- je součástí práva veřejného 
+- dělí se na:
+	- hmotně právní 
+	- procesní 
+- reguluje spol. vztahy v oblasti veřejné správy (regulace vztahů při zajišťování veř potřeb)
+
+==== Správní řád ====
+	- upravuje postup správního orgánu, který  směřuje od zahájení k vydání 
+	- rozhodnutí => správní řízení 
+	- správní orgán vydává 
+		- konstitutivní rozhodnutí
+			- zakládá, mění, nebo ruší práva či povinnosti účastníků řízení  
+		- deklaratorní rozhodnutí 
+			- toliko osvědčuje (konstatuje), zda zde nějaké právo, či povinnost je, nebo není 
+	- zásada ochrany dobré víry 
+	- presumpce správnosti úředního rozhodnutí 
+	-příslušnost
+		- věcná
+		- místní 
+
+
+==== Účastníci řízení ====
+	pass
+
+
+==== Správní řízení ====
+	procesní způsobilost ve sp. řízení 
+		každá osoba v rozsahu, v jakém je ji přikázána svéprávnost (nebo tak něco, hned to smazal)
+	zastoupenní 
+		na základě p.m. 
+		ze zákona (opatrovník)
+	správní řízení- zahájeno __z moci úřední__, nebo __podáním žadatele__
+	- založen spis-> jeho obsahem jsou všechny skutečnosti, sloužící pro rozhodnutí 
+	rozhonutí 
+		- výrok 
+		- odův
+		- poučení o opravních prostředcích 
+
+	ipravné prostředky 
+		řádné 
+			(odvolání, rozklad= oprava, když rozhoduje ministerstvo)
+		mimořádné 
+			(obnova řízení, přezkum)
+	autoremedura =>rozhodnutí orgánu 
+		1. stupně odvolání tak, že mu plně vyhoví 
+
+==== Obsah soukromého práva ====
+	- upravuje vztahy mezi osobami vzájemně 
+	- rovné postavení subjektů
+	- zásada smluvní volnosti 
+	- je možno činit vše, co není zákonem zakázáno  
+	
+	- prameny 
+		občanský zákoník (z č. 81/2012 Sb.)
+		zákon o obch. korporacích 
+		zákoník práce
+		občanský právní řád =>procesní předpis 
+		
+		--------------------
+		ústava +LZPS
+
+
+89/2012 osč 2
+
+	- osoby 
+		- fyzické osoby 
+			- všechny živé osoby (ne zvířata)
+			- rozlišujeme 
+				- právní osobnost (narozením, všechny osoby jsou způsobilé)
+					- nascitulurus (osoba počatá, ale nenarozená)- využívá se např i závěti, můžu odkázat nenarozenému 
+				- svéprávnost (zletilostí - vlastním jednáním vstupovat do právních vstahů, brát na sebe práva a povinnosti
+					- deliktní způsobilost (
+		- právnické osoy
+			= umělý právní konstrukt 
+			- rozlišujeme p.o., založené za účelem podnikání (obch. korporace)
+			- p.o. zaožené z důvodu uspokojování  potřeb zakladatelů (spolky, nadace,...)
+			
+==== Založení s.r.o. ====
+	- založení -NZ
+		- zakladatelská listina (1. zakladatel)
+		- společenská smlouva (více než jeden)
+		- banka- složení základního kapitálu 
+		- ŽÚ - výpis z živnostenského rejstříku 
+		- čestné prohlášení jednatele + čestn. prohl. spr. vkladu 
+	- jednání osob 
+		-  osobně 
+		 - v zastoupení 
+			. zákonné 
+			- smluvní 
+				- plná moc
+				- prokuratura (jen u podnikatelů po, zapsaných v OR)
+	- prokuratura 
+		- zíkladní 
+		- rozšířená 
+
+
+==== Věci ====
+	- věc v právním smyslu je vše, co je rozdílné od osoby a služí potřebě lidí 
+	=>pro člověka užitečná, ovladatelná 
+	- dělení 
+		- movitá x nemovitá
+		- hmotné x nehmotné (práva)
+		- věc hromadná x individuálně určená 
+		- věc zuživatelná x nezuživatelná 
+	- veřejný statek
+
+
+ 
+		
+
+
+
+
+
+
+
+
+
+
+

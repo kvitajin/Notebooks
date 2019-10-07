@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-15T12:57:44+02:00
+
+====== 4. přednáška ======
+Created Pondělí 15 října 2018
+
+obrázek v sešitě
+public class Zakaznik{
+	string: jmeno;
+	Objednavka o[];
+	Dorucovaci dorucovaci;
+	Fakturacni fakturacni;
+}
+public class Objednavka {
+	Zakaznik z;
+}
+public class Adresa{
+	implements
+	Fakt., Doruč{}
+};
+

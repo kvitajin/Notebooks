@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-02-25T13:51:09+01:00
+
+====== 3. hodina - cron ======
+Created Pondělí 25 února 2019
+
+som kokot, zaspal jsem 
+
+[[/etc/systmd/system]]
+
+aby se to pouštělo po startu musí tam být po startu enable 
+nakonec systemctl daemon-reload 
+[[/etc/crontab]]
+editovat si vlastní cron a ne rootovkský - použít etc/crontab

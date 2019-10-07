@@ -1,0 +1,58 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-28T13:29:50+01:00
+
+====== DAIS ======
+Created Čtvrtek 28 března 2019
+
+==== Zadání semestrálky ====
+* Analýza
+	* specifikace zadání
+		* musí být konzistentní
+	* datová analýza 
+		* relační dát(ten žlutý)
+		* datový slovník
+	* stavová analýza
+		* musí tam být aspoň u dvou entit stavová analýza 
+		* stav pojmenovaný a odlišitelný od ostatních 
+			* musí být jasné, jak poznáme stav podle dat 
+			* přesně specifikované
+	* funkční analýza
+		* ze všeho nejsložitější 
+		* bude tam: 
+			* seznam funkcí 
+				* 1. student
+					* 1.1 vytvoření studenta 
+					* 1.2 zobrazení 
+					* 1.3 úprava studenta
+					* 1.4 smazání studenta 
+				* musí být pro všechny tabulky (teda skoro, vazební fakt ne)
+				* ještě tam musí být 5 funkcí mimo tyhle triviální 
+					* funkce řešené netriviálním dotazem 
+						* spojení několika tabulek, agregační fce,...
+					* 3 procedury, nebo triggery
+			* detailní popis funkcí 
+				* funkce dotazem 
+					* 2x 
+					* select... from ...
+				* transakce 
+					* 3x
+					* minispecifikace 
+						* něco mezi pseudokódem a přirozeným jazykem 
+						* 1. do proměnné uložím
+						* 2. jestliže něco, tak se provede toto
+	* návrh UI
+		* hierarchická sruktura menu 
+			* rozebrat celé menu co tam bude a 
+		* návrh formulářů 
+			* popsat 2-3 formuláře, náčrtek atd 
+			* a tlačítka na netriviální funkce 
+				* např tam bude nějaký návrh a u tlačítka bude vysvětlivka např spouští funkci 3.8
+* ORM
+* Aplikace
+
+
+ukázka na přednášce 7. týdne
+https://dbedu.cs.vsb.cz/files/2018-2019/DAIS/dais-7.pdf 
+https://homel.vsb.cz/~luk194/dais.html
+https://homel.vsb.cz/~luk194/files/dais/projekt/doplnujici_material.pdf

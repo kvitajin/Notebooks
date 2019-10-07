@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-02-11T13:22:25+01:00
+
+====== 1. hodina - install ======
+Created Pondělí 11 února 2019sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install dotnet-sdk-2.2
+
+virtualbox 
+	nahodit debian 
+	nastavení-> síť ->karta2->připojena k-> síť pouze s hostem 
+předvolby-> síť-> síť pouze s hostem -> přidat vbonext0 a 1
+
+při instalaci odškrtnou desktop enviroment, všechno osekat, ale přidat ssh 
+
+cp [[/home/sei01/.bashrc]] [[/root/]] 
+	obarví roota 
+	
+zakomentova v [[/etc/apt/sources.list]] zakomentovat disky a zbytek odkomentovat

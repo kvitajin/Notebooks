@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-26T10:56:36+02:00
+
+====== 2. přednáška ======
+Created Středa 26 září 2018
+
+python3 -m venv spja2 --without-pip
+
+anonymní funkce 
+	lambda funkce 
+	g=lambda x: x**2 
+map je schopen aplikovat něco na každý prvek pole
+filter vrátí ty prvky, které odpovídají podmínce
+umocni všechny čísla větší, než 4
+	list(map(lambda x: x**2, filter(lambda x: x>4, lst)))
+	
+	
+try:
+	with open('file.txt') as f:
+		for line in f:
+			print(line.strip())
+exept FileNotFoundError as e:
+	print("o kurwa, soubor niet")	
+	print(e, type(e))
+print('ahoj')
+
+matrix=[[1,2,3],
+		   4,5,6]]
+with open ('file.txt, 'wt') as f:
+	for row in matrix:
+		for item in row:
+			f.write(str(item)+'+')
+		f.write('\n')
+
+with open ('file.txt, 'wt') as f:
+	for row in matrix:
+		f.write(','.join([str(x) for x in row])+'\n')
+
+
+

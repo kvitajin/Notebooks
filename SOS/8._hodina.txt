@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-04-08T12:54:47+02:00
+
+====== 8. hodina ======
+Created Pondělí 08 dubna 2019
+
+w-scan
+
+mumdvb <- pomocí toho můžeme streamovat)
+mumdvb -c mum.cfg něco
+
+sei01@X220:
