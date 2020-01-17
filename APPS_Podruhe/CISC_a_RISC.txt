@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-11-04T14:30:21+01:00
+
+====== CISC a RISC ======
+Vytvořeno Pondělí 04 listopadu 2019
+
+cíle riscu: 
+	zjednodušit instrukční sadu 
+	sjednotit délku instrukcí- urychluje rychlost načítání z paměti  
+	sjednotit formát instrukcí 
+	komunikace s pamětí se omezí jen na dvě instrukce (load a store)
+	navýšení počtu registrů 
+	mikroprocesorový řadič je nahrazen obvodovým (v kterém jsou hardwarově implementovány instrukce)
+	řešení technických problémů přesunuto do překladače 
+	v každém strojovém cyklu dokončit instrukci 
+problémy riscu 
+	při podmíněných skocích neví, kam má jít 
+	
+	možné řešení: 
+	- pokud to jde (u měnší úrovně zřetzení), přehodit podmíněný skok o pár instrukcí dopředu, aby se nemusely předvypočítané výsledky zahazovat 
+	- bit predikce skoku 
+		odhaduje se, jestli se skočí, nebo ne (u smyček to hodně pomáhá, protože se počítá s tím, že se znova skočí dovnitř, ale u posledního průjezdu tam ke ztrátě dojde (ta ale ení tak velká, jako kdyby tam ten bit nebyl)
+		problém nastává u ifů, kde to tak dobře nefunguje 
+	- dva bity predikce skoku 
+
+**d) najít si nějaký risc procesor a podle těch bodů popsat jeden riscový procesor** 
+
+

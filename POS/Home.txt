@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-12-15T19:25:02+01:00
+
+====== Realtime 2 ======
+Vytvořeno Neděle 15 prosince 2019
+
+=== DNS ===
+- **nslookup** - info o dns
+	- set type=<tzp_zaznamu> 
+		(ns,a, ... nebo any, zobrzi vsechny)
+př: 
+-nslookup 
+	server DNS_server
+	set type=A
+	homel.vsb.cz
+	
+**host**
+**dig -** info z dns serveru
+	@<server>
+př: 
+	dig -t <typ záznamu> -p <port>
+	dig -t A homel.vsb.cz
+QUESTION SECTION - dotaz na dns server
+ANSWER SECTION - odpověď 
+AUTHORITY SECTION - určuje, který DNS je autoritou 
+ADDITIONAL SECTION - dodatečné info (zobrazuje ip dns serverů) 
+

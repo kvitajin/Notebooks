@@ -1,0 +1,62 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-12-02T14:22:59+01:00
+
+''Paměti''
+Vytvořeno Pondělí 02 prosince 2019
+
+Typy: 
+	RAM - random access memory 
+	SAM- serial access memory 
+	
+- podle přístupu
+- podle komunikace 
+- podle způsobu zápisu 
+- dle buňky 
+
+
+ramka v pc je dram volatilní
+
+==== Hierarchie paměti v počítači ====
+
+- registry 
+	jednotky až stovky 
+	SRAM
+	přibližně rychlost CPU 
+	
+- cache L1
+	SRAM 
+	jednotky až stovky kB
+- cache L2
+	SRAM 
+	rychlost  jednotky  nanosekund 
+	jednotky až desítky MB
+- cache L3
+	SRAM 
+	přístupová doba v nanosekundách 
+	externí sběrnice 
+	velikost v MB
+- hlavní paměť ("ramka")
+	DRAM
+	jednotky nanosekund
+	jednotky až tisíce GB
+- pevný disk (HDD, SSD, FLASH)
+	flash 
+	EEPROM 
+		stovky mikrosekund až jednotky milisekund 
+
+
+															^ poovodičové 
+--------------------
+															V objevují se mechanické části 
+	HDD 
+		magnetické 
+		4-12ms 
+		jednotky až desítky  TB
+-CD/DVD
+- pásky 
+
+
+výroba cpu 
+(na jeho stránkách)
+

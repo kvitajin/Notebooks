@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-11-18T14:32:25+01:00
+
+====== CU(n)DA ======
+Vytvořeno Pondělí 18 listopadu 2019
+
+SIMT - single instruction, multiple thread 
+naučit se pascala, nebo voltu 

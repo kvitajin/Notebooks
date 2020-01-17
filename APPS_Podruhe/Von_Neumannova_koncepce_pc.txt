@@ -18,7 +18,7 @@ instrukce jsou vykonávány sekvenčně prostřednictvím cpu
 změna sekvenčního vykonávání je možná jen díky skokům, které jsou v kódu (nikoliv zvenčí)
 pozice v kódu je P(rogram) C(ounter) / I(nstruction) P(ointer)
 paměť rozčleněna na buňky stejné velikosti (typ. bajt)
-pořadové číslo buňkyje adresa
+pořadové číslo buňky je adresa
 
 tohle byly "ingredience", ale když se zeptá, jak funguje von neumannův pc, tak mu tohle nestačí 
 chce k tomu povídání 

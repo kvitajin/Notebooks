@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-10-14T14:25:11+02:00
+
+====== Sběrnice ======
+Vytvořeno Pondělí 14 října 2019
+
+sběrnice= svazek vodičů
+
+jsou druhy: 
+	- adresní  	A_{0}-A_{M}
+	- datová	D_{0}-D_{N}
+	-řídící 		R, W, RM, WN
+	(-napájení) 
+		je součástí sběrníc, ale pšt
+
+dochází k sdílení vodičů pro adresy a data (multiplexování)- sice to zpomalí, ale je to levnější 
+
+http://poli.cs.vsb.cz/edu/arp/down/komunikace.pdf
+
+
+
+
